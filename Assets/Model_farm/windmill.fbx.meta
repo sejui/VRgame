@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: e676c8de74bed4b97b7b6ccf1b29dacb
+timeCreated: 1496182057
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: polySurface1
+    100002: polySurface10
+    100004: polySurface11
+    100006: polySurface12
+    100008: polySurface13
+    100010: polySurface14
+    100012: polySurface15
+    100014: polySurface16
+    100016: polySurface17
+    100018: polySurface18
+    100020: polySurface19
+    100022: polySurface2
+    100024: polySurface20
+    100026: polySurface21
+    100028: polySurface22
+    100030: polySurface23
+    100032: polySurface24
+    100034: polySurface3
+    100036: polySurface4
+    100038: polySurface5
+    100040: polySurface6
+    100042: polySurface7
+    100044: polySurface8
+    100046: polySurface9
+    100048: polySurface9 1
+    100050: transform1
+    100052: transform10
+    100054: transform11
+    100056: transform12
+    100058: transform13
+    100060: transform14
+    100062: transform15
+    100064: transform16
+    100066: transform17
+    100068: transform18
+    100070: transform19
+    100072: transform2
+    100074: transform20
+    100076: transform21
+    100078: transform22
+    100080: transform23
+    100082: transform24
+    100084: transform25
+    100086: transform26
+    100088: transform3
+    100090: transform4
+    100092: transform5
+    100094: transform6
+    100096: transform7
+    100098: transform8
+    100100: transform9
+    100102: //RootNode
+    100104: windmill:base
+    100106: windmill:girouette
+    100108: windmill:shaft
+    100110: windmill:ventilateur
+    400000: polySurface1
+    400002: polySurface10
+    400004: polySurface11
+    400006: polySurface12
+    400008: polySurface13
+    400010: polySurface14
+    400012: polySurface15
+    400014: polySurface16
+    400016: polySurface17
+    400018: polySurface18
+    400020: polySurface19
+    400022: polySurface2
+    400024: polySurface20
+    400026: polySurface21
+    400028: polySurface22
+    400030: polySurface23
+    400032: polySurface24
+    400034: polySurface3
+    400036: polySurface4
+    400038: polySurface5
+    400040: polySurface6
+    400042: polySurface7
+    400044: polySurface8
+    400046: polySurface9
+    400048: polySurface9 1
+    400050: transform1
+    400052: transform10
+    400054: transform11
+    400056: transform12
+    400058: transform13
+    400060: transform14
+    400062: transform15
+    400064: transform16
+    400066: transform17
+    400068: transform18
+    400070: transform19
+    400072: transform2
+    400074: transform20
+    400076: transform21
+    400078: transform22
+    400080: transform23
+    400082: transform24
+    400084: transform25
+    400086: transform26
+    400088: transform3
+    400090: transform4
+    400092: transform5
+    400094: transform6
+    400096: transform7
+    400098: transform8
+    400100: transform9
+    400102: //RootNode
+    400104: windmill:base
+    400106: windmill:girouette
+    400108: windmill:shaft
+    400110: windmill:ventilateur
+    2300000: polySurface9
+    2300002: windmill:base
+    2300004: windmill:shaft
+    3300000: polySurface9
+    3300002: windmill:base
+    3300004: windmill:shaft
+    4300000: windmill:base
+    4300002: windmill:shaft
+    4300004: polySurface9
+    7400000: millRotate
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: millRotate
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface9
+        weight: 1
+      - path: windmill:base
+        weight: 1
+      - path: windmill:girouette
+        weight: 1
+      - path: windmill:girouette/transform14
+        weight: 1
+      - path: windmill:shaft
+        weight: 1
+      - path: windmill:ventilateur
+        weight: 1
+      - path: windmill:ventilateur/polySurface1
+        weight: 1
+      - path: windmill:ventilateur/polySurface1/transform19
+        weight: 1
+      - path: windmill:ventilateur/polySurface2
+        weight: 1
+      - path: windmill:ventilateur/polySurface2/transform18
+        weight: 1
+      - path: windmill:ventilateur/polySurface3
+        weight: 1
+      - path: windmill:ventilateur/polySurface3/transform20
+        weight: 1
+      - path: windmill:ventilateur/polySurface4
+        weight: 1
+      - path: windmill:ventilateur/polySurface4/transform21
+        weight: 1
+      - path: windmill:ventilateur/polySurface5
+        weight: 1
+      - path: windmill:ventilateur/polySurface5/transform22
+        weight: 1
+      - path: windmill:ventilateur/polySurface6
+        weight: 1
+      - path: windmill:ventilateur/polySurface6/transform23
+        weight: 1
+      - path: windmill:ventilateur/polySurface7
+        weight: 1
+      - path: windmill:ventilateur/polySurface7/transform24
+        weight: 1
+      - path: windmill:ventilateur/polySurface8
+        weight: 1
+      - path: windmill:ventilateur/polySurface8/transform25
+        weight: 1
+      - path: windmill:ventilateur/polySurface9 1
+        weight: 1
+      - path: windmill:ventilateur/polySurface9 1/transform26
+        weight: 1
+      - path: windmill:ventilateur/polySurface10
+        weight: 1
+      - path: windmill:ventilateur/polySurface10/transform15
+        weight: 1
+      - path: windmill:ventilateur/polySurface11
+        weight: 1
+      - path: windmill:ventilateur/polySurface11/transform16
+        weight: 1
+      - path: windmill:ventilateur/polySurface12
+        weight: 1
+      - path: windmill:ventilateur/polySurface12/transform17
+        weight: 1
+      - path: windmill:ventilateur/polySurface13
+        weight: 1
+      - path: windmill:ventilateur/polySurface13/transform3
+        weight: 1
+      - path: windmill:ventilateur/polySurface14
+        weight: 1
+      - path: windmill:ventilateur/polySurface14/transform4
+        weight: 1
+      - path: windmill:ventilateur/polySurface15
+        weight: 1
+      - path: windmill:ventilateur/polySurface15/transform5
+        weight: 1
+      - path: windmill:ventilateur/polySurface16
+        weight: 1
+      - path: windmill:ventilateur/polySurface16/transform6
+        weight: 1
+      - path: windmill:ventilateur/polySurface17
+        weight: 1
+      - path: windmill:ventilateur/polySurface17/transform7
+        weight: 1
+      - path: windmill:ventilateur/polySurface18
+        weight: 1
+      - path: windmill:ventilateur/polySurface18/transform8
+        weight: 1
+      - path: windmill:ventilateur/polySurface19
+        weight: 1
+      - path: windmill:ventilateur/polySurface19/transform9
+        weight: 1
+      - path: windmill:ventilateur/polySurface20
+        weight: 1
+      - path: windmill:ventilateur/polySurface20/transform10
+        weight: 1
+      - path: windmill:ventilateur/polySurface21
+        weight: 1
+      - path: windmill:ventilateur/polySurface21/transform11
+        weight: 1
+      - path: windmill:ventilateur/polySurface22
+        weight: 1
+      - path: windmill:ventilateur/polySurface22/transform12
+        weight: 1
+      - path: windmill:ventilateur/polySurface23
+        weight: 1
+      - path: windmill:ventilateur/polySurface23/transform13
+        weight: 1
+      - path: windmill:ventilateur/polySurface24
+        weight: 1
+      - path: windmill:ventilateur/polySurface24/transform2
+        weight: 1
+      - path: windmill:ventilateur/transform1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
