@@ -208,7 +208,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             float vertical = CrossPlatformInputManager.GetAxis("Vertical");
 
             bool waswalking = m_IsWalking;
-
+            /*
             bool m_isAxisInUse = false;
 
             if (Input.GetAxisRaw("Run") != 0)
@@ -222,12 +222,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 m_isAxisInUse = false;
             }
-            
+            */
 #if !MOBILE_INPUT
             // On standalone builds, walk/run speed is modified by a key press.
             // keep track of whether or not the character is walking or running
-            //m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
-            m_IsWalking = !m_isAxisInUse;
+            m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
+            //m_IsWalking = !m_isAxisInUse;
 #endif
             // set the desired speed to be walking or running
             speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;

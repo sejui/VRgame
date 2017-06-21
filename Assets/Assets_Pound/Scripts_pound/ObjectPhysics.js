@@ -1,16 +1,15 @@
 ﻿#pragma strict
 
-
-
 var pushPower = 2.0;
 public var clip : AudioClip; 
 
 function Start(){
-	
 
 }
+
 function OnControllerColliderHit (hit: ControllerColliderHit){
 	if(hit.gameObject.tag == "box"){
+		Debug.Log("Chair hit");
 		var body : Rigidbody = hit.collider.attachedRigidbody;
 		var m_audio: AudioSource = GetComponent.<AudioSource>();
 
