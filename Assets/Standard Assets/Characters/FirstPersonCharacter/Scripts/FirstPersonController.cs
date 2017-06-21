@@ -221,8 +221,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             else if (Input.GetAxisRaw("Run") == 0)
             {
                 m_isAxisInUse = false;
-            }
-            */
+            }*/
+            
 #if !MOBILE_INPUT
             // On standalone builds, walk/run speed is modified by a key press.
             // keep track of whether or not the character is walking or running
