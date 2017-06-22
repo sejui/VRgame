@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class teleportTo3 : MonoBehaviour
 {
-
+	//load to the memory scene
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("teleport begins");
