@@ -7,11 +7,12 @@ public class palTrigger : MonoBehaviour {
 	//when triggers, the dog pal will move and perform animation. 
 	Animator palContainer;
 //	Rigidbody rigi;
+	public GameObject container;
 
 	// Use this for initialization
 	void Start () {
 		
-		palContainer = GameObject.Find("dogPal").GetComponent<Animator> ();
+		palContainer = container.GetComponent<Animator> ();
 //		pal = GameObject.Find("SheepDog").GetComponent<Animator> ();
 //		rigi = GameObject.Find("SheepDog").GetComponent<Rigidbody> ();
 

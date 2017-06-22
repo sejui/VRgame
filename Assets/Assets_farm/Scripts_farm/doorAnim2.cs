@@ -2,19 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//this script triggers an ending animation sequence, to open the door
 public class doorAnim2 : MonoBehaviour {
 	public Animator anim;
-//	public AudioSource windchime;
+	float countdown = 500f;
+
 	void Start(){
 		anim = GetComponent<Animator>();
-//		windchime = GetComponent<AudioSource> ();
+
 	}
 	void OnTriggerEnter(Collider col){
-//		Debug.Log ("trigger mill animation");
-//		windchime.Play ();
+
 		if (col.gameObject.tag == "Player") {
 			anim.Play ("doorOpen2");
+		}
+	}
+
+	void OnTriggerExit(Collider col){
+		if (col.gameObject.tag == "Player") {
+			
+			Application.LoadLevel(0);
+		}
+
+	}
+
+	void Update(){
+		if (countdown <= 0) {
+			//fade the camera, load the starting screen 
 
 		}
+
 	}
 }

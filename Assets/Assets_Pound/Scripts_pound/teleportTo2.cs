@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class teleportTo2 : MonoBehaviour {
-    // Use this for initialization
+    // load the ally scene
     void Start()
     {
 
