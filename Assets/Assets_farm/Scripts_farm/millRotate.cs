@@ -10,7 +10,7 @@ public class millRotate : MonoBehaviour {
 		windchime = GetComponent<AudioSource> ();
 	}
 	void OnTriggerEnter(Collider col){
-		Debug.Log ("trigger mill animation");
+		
 		windchime.Play ();
 		if (col.gameObject.tag == "Player") {
 			anim.Play ("millRotate");

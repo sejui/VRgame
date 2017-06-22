@@ -16,7 +16,11 @@ public class animateChange : MonoBehaviour {
 		//get the vector
 		float move = Input.GetAxis ("Vertical");
 		//if the axis is changed, set speed to the vector
-		anim.SetFloat ("speed", 1);
+		if (move != 0) {
+			anim.SetFloat ("speed", 1);
+		} else {
+
+		}
 
 	}
 }
