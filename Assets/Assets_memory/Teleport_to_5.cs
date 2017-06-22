@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class teleportTo4 : MonoBehaviour {
-	//this is to load the after-memo scene
+//this is to load the farm scene
+public class Teleport_to_5 : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col){
 		if (col.tag == "Player") {
-			Application.LoadLevel(4);
+			Application.LoadLevel(5);
 
 		}
 
