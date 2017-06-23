@@ -41,8 +41,8 @@ public class FadeManager : MonoBehaviour {
 
 		if (timeleft < 11 && timeleft >10)
 			Fade (false, 3.0f);
-		if (timeleft < 5 && timeleft > 4)
-			Fade (true, 4.0f);
+		if (timeleft < 8 && timeleft > 7)
+			Fade (true, 7.0f);
 
 
 		if (!isInTransition)
