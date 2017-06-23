@@ -26,6 +26,7 @@ function OnControllerColliderHit (hit: ControllerColliderHit){
 
 		//apply push
 		body.velocity = pushDir * pushPower;
+
 		//apply sound effect
 		if(!m_audio.isPlaying) m_audio.PlayOneShot(clip);
 
