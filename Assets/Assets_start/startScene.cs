@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement; // neded in order to load scenes
 public class startScene : MonoBehaviour 
 {
 //	public Canvas quitMenu;
-	public Button startText;
+	//public Button startText;
 //	public Button exitText;
 
 	void Start ()

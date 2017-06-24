@@ -9,7 +9,7 @@ public class JackTrigger : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		jack = GetComponent<GameObject> ();
-		anim = GameObject.Find("Jack").GetComponent<Animator> ();
+		anim = GameObject.Find("jack1").GetComponent<Animator> ();
 
 		if (anim == null) {
 			Debug.Log (anim);
